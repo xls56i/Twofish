@@ -11,6 +11,7 @@ var canWidth;
 var canHeight;
 
 var bgPic = new Image();
+var bgPic5 = new Image();
 var fruit;
 var ane;
 var mom;
@@ -25,8 +26,20 @@ var wave;
 var halo;
 
 var dust;
+var temp = 0;
 
-document.body.onload=game;
+
+document.body.onload = kkk;
+function kkk(){
+	document.getElementById("img2").onclick = function(){
+		document.getElementById("cover").style.display="none";
+		game();
+	}
+	document.getElementById("img3").onclick = function(){
+		document.getElementById("restart").style.display="none";
+		game();
+	}
+}
 function game(){
 	init();
 	lastTime = Date.now();
@@ -44,7 +57,7 @@ function init(){
 	can1.addEventListener('mousemove', onMouseMove, false);
 	
 	bgPic.src = "img/background.jpg";
-	
+	bgPic5.src = "img/power1-restart.png";
 	canWidth = can1.width;
 	canHeight = can1.height;
 	
