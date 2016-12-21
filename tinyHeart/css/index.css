@@ -24,3 +24,59 @@ body{
 	left: 0;
 	z-index: 0;
 }
+#cover{
+	position: absolute;
+	width:800px;
+	height: 600px;
+	bottom: 0;
+	left: 0;
+	z-index: 3;
+	display: block;
+}
+#img1{
+	position: absolute;
+	width:800px;
+	height: 600px;
+	bottom: 0;
+	left: 0;
+}
+#img2{
+	position: absolute;
+	width:70px;
+	height:70px;
+	bottom:130px;
+	left: 365px;
+	cursor: pointer;
+	transition: all 0.6s;  
+}
+#img2:hover{
+	width: 90px;
+	height: 90px;
+	bottom:120px;
+	left: 355px;
+}
+
+#restart{
+	position: absolute;
+	width:800px;
+	height: 600px;
+	bottom: 0;
+	left: 0;
+	z-index: 3;
+	display: none;
+}
+#img3{
+	position: absolute;
+	width:70px;
+	height:70px;
+	bottom:130px;
+	left: 365px;
+	cursor: pointer;
+	transition: all 0.3s;  
+}
+#img3:hover{
+	width: 90px;
+	height: 90px;
+	bottom:120px;
+	left: 355px;
+}
